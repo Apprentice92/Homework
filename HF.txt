@@ -1,0 +1,20 @@
+Git basics homework:
+
+1. git telepítése (asszem ezt már néztük régebben)
+
+2. hozzunk létre egy új mappát, majd egy git repot a mappában: $ git init
+
+3. adjunk hozzá egy új fájlt, majd csináljunk egy commitot ezzel a fájllal: $ git add . ; $ git commit -m "Commit message"
+(közben használhatjuk a $ git status és a $ git log -3 parancsokat a reponk aktuális állapotának vizsgálatára)
+
+4. csináljunk még 2 hasonló változtatást és commitot
+
+5. csináljunk egy másik branchet a "master"-en kívül: $ git branch new-branch-name
+
+6. gyakoroljuk a branchek közötti váltást: $ git checkout branch-name
+
+7. adjunk hozzá egy commitot a master, majd egy másikat az új branchünkhöz
+
+8. a sourcetree-ben is nézzük végig, hogy mi hogyan néz ki a commitolások közben, hol találjuk meg a szükséges információkat
+
+9. jelentkezzünk be a github fiókunkba a vscodeban és töltsük fel a reponkat egy remote repositoryba
